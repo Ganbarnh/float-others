@@ -1,101 +1,217 @@
-*{
-  padding:0;
+* {
   margin:0;
+  padding:0;
   box-sizing: border-box;
-}
-a{
-  text-decoration:none;
-  color:white;
+  font-family:Helvetica, sans-serif;
 }
 
-.navbar {
-  text-transform:uppercase;
-  float:right;
-  margin-top:4px;
+
+.first-div {
+  background-image:url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:300px 200px;
+  background-repeat: no-repeat;
+  text-align:center;
+}
+
+.first-div h1 {
+  font-size: 6rem;
+  font-family:Helvetica, sans-serif;
+}
+
+.first-div p{
+
+  font-size: 3rem;
+  font-family:Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom:70px;
+}
+
+.first-div a{
+  color:white;
+  padding:20px 30px;
+  background-color:#1D809F;
+  border:1px solid #1D809F;
+  font-size:1rem;
+  text-decoration:none;
+  border-radius: 3px;
+  transition:0.5s;
+}
+
+.first-div a:hover {
+  box-shadow:-1px 0px 0px 4px #125366;
+  padding:25px 35px;
+  background-color:#050f12;
   
 }
-
-.navbar a{
-  margin-left: 50px;
+.first-div a:active {
+  box-shadow:-1px 0px 0px 4px #ffd0d0;
+  padding:25px 35px;
+  background-color:#fb5219;
+  color:#050f12
+  
+}
+.second-div {
+  text-align:center;
+  padding:150px 100px;
 }
 
-.header {
-  position:fixed;
-  padding:20px 4rem;
-  overflow:auto;
-  width:100%;
+.second-div h1 {
+  font-size: 2rem;
+  font-family:Helvetica, sans-serif;
+  margin-bottom:35px;
 }
 
-.header .logo {
-  float:left;
-  font-size:20px;
+.second-div p{
+
+  font-size: 20px;
+  font-family:Helvetica, sans-serif;
+  margin-bottom:70px;
+}
+.second-div .offer{
+  color:white;
+  padding:20px 30px;
+  background-color:#000000;
+  border:1px solid #000000;
+  font-size:1rem;
+  text-decoration:none;
+  border-radius: 3px;
+  transition:0.5s;
+}
+
+.second-div .offer:hover{
+  box-shadow:-1px 0px 0px 4px #4e3d1d;
+  padding:25px 35px;
+  background-color:#dec33e;
+}
+.second-div .offer:active {
+  box-shadow:-1px 0px 0px 4px #ffd0d0;
+  padding:25px 35px;
+  background-color:#fb5219;
+  color:#050f12
+}
+.container {
+  background-color: #125366;
+  padding:20px 10px 400px 10px;
+}
+
+.container .top1{
+  text-align:center;
+  color:#dec33e;
+  margin-bottom:12px;
+
+} 
+.container .top2{
+  text-align:center;
+  color:white;
+  margin-bottom:10px;
+  font-size:42px;
   font-weight:bold;
 }
 
-.mainDiv {
-  text-align:center;
-  background-image:url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg)
-  ;background-position: center;
-  background-size: cover;
-  padding:300px 300px;
-  
-
-
-} 
-
-.mainDiv h1 {
- font-size:48px;
- font-weight:bold;
- color:white;
- margin-bottom:60px;
+.subcontainer {
+ width: 10%;
+ float:left;
+ margin-left:calc(60%/8);
+ margin-right:calc(60%/8);
+ text-align:center;
+}
+ .subcontainer img {
+  margin-top:20px;
+  width: 100%;
+  clip-path: circle(50% at 50% 50%);
+  margin-bottom:40px;
  }
 
-.mainDiv p{
-  font-size:24px;
+ .subcontainer h1 {
   color:white;
+ }
+ .subcontainer p {
+  margin-top:24px;
+  color:white;
+  font-size:16px;
+ }
+
+ .welcome-container {
+  background-image:url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align:center;
+  padding:300px 10px;
+}
+
+.welcome-container h1{
+  font-size: 4rem;
+  font-family:Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom:70px;
+}
+.welcome-container a{
+  color:white;
+  padding:20px 30px;
+  background-color:#1D809F;
+  border:1px solid #1D809F;
+  font-size:1rem;
+  text-decoration:none;
+  border-radius: 3px;
+  transition:0.5s;
+  display:inline-block;
   margin-bottom:100px;
 }
 
-.mainDiv a{
-  background-color:rgb(244,98,58);
-  padding:20px 20px;
-  color:white;
-  border-radius: 16px;
-  font-size:24px;
+.welcome-container a:hover {
+  box-shadow:-1px 0px 0px 4px #125366;
+  padding:25px 35px;
+  background-color:#050f12;
+  
+}
+.welcome-container a:active {
+  box-shadow:-1px 0px 0px 4px #ffd0d0;
+  padding:25px 35px;
+  background-color:#fb5219;
+  color:#050f12;
   
 }
 
-.mainDiv a:active {
-  box-shadow: -2px -1px 31px -18px rgba(250, 225, 225, 0.75);
+.card {
+
+ 
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-.secondDiv {
-  text-align:center;
-  background-color:rgb(244,98,58);
-  padding:160px;
+.card img {
+  float:left;
+  width:50%;
+  transition:0.3s;
 }
 
-.secondDiv h1{
-  color:white;
-  font-size:30px;
-  margin-bottom:60px;
+.project-container h1{
+
+  color: rgb(231, 179, 34);
+  font-size: 16px;
+  text-align: center;
+  margin-top:64px;
+  font-weight: bold;
+}
+.project-container p{
+  font-size:48px;
+  text-align: center;
+  font-weight: bold;
+  margin-top:6px;
+  margin-bottom:32px;
 }
 
-.secondDiv p{
-  color:white;
-  font-size:16px;
-  margin-bottom:60px;
+.card img:hover  {
+  padding:20px;
+  opacity:0.3;
+  }
+
+.map {
+  width:100%;
 }
 
-.secondDiv a{
-  background-color:rgb(255, 246, 246);
-  padding:20px 20px;
-  color:black;
-  border-radius: 16px;
-  font: size 18px;
-}
-.secondDiv a:active {
-  box-shadow: 
-  0px 1px 0px 3px rgb(255, 255, 255);
-}
+
 
